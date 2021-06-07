@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.PROPERTY OF THE WEBSITE" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The General Conditions of Use and Privacy Policy shall be governed by Spanish law prevalent at the time. Any dispute arising from use of the Website or the Application by the User or by the HCP, as well as any issues that may arise concerning the interpretation, application and enforcement of these General Terms of Use or the Privacy Policy shall be submitted to the exclusive jurisdiction of the Courts of the City of Barcelona (Spain)." />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. DISCLAIMER OF THE PLATFORM" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HealthApp is a platform, which connects the Users and therapists (HCP) registered on the website www.bcnhealthapp.com, acting as merely intermediary. The information shared by the users and the HCP may contain Health-related information and personal data information. However, Healthapp, S.L. does not own any of such data or information shared between the Users and HCP. Thus, any data provided by the Users or the HCP belong exclusively to them. Therefore, Healthapp, S.L. cannot be held liable for any event occurred relating to such data. Despite the fact that Healthapp, S.L. does not own any of such data shared by the Users and HCP, the company has applied all the measures required for the “high-security-level-files” by the Organic Law 15/1999 on Protection of Personal Data, in order to grant the protection of the data and information of the Users and HCP." />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. REGISTRATION PROCESS" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In accordance with the provisions of the law governing these General Terms of Use and the Privacy Policy, access to the HealthApp Services is limited to persons over 18 years of age. If you are under 18 we will require you prior to use, expressly, to secure authorization in writing from your parents or guardians. Therefore, when registering on HealthApp Services, you expressly state and ensure that you fulfil this requirement and otherwise accept the consequences if they arise. If you are unable to comply with the conditions laid down in this paragraph, please do not register at HealthApp. If you are a HCP, we confirm in accordance with the provisions of the law governing these General Terms of Use and the Privacy Policy, that access to HealthApp is limited to medical professionals who are qualified to meet all of the requirements demanded by their profession in the country in which they pursue this profession. Therefore, by registering on our website as a HCP, you expressly state and guarantee that you meet this requirement and accept the consequences that may arise if otherwise. To access to HealthApp Services, we offer Users and HCPs a registration system that will manage your personal information and create customized access with a user name and password. If you are a User, you can access the registration system through the Application once it is installed on your mobile device. HCP can only access registration through the Website by selecting the link called “HCP”." />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>

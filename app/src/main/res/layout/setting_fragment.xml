@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/Privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="@color/design_default_color_surface"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:gravity=""
+        android:inputType="textPersonName"
+        android:text="Privacy Policy"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Service" />
+
+    <Button
+        android:id="@+id/Service"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="29dp"
+        android:background="@color/design_default_color_surface"
+        android:drawableLeft="@drawable/service"
+        android:ems="10"
+        android:gravity=""
+        android:inputType="textPersonName"
+        android:text="Terms of Service"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Donation" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#9C27B0"
+        android:text="  SETTINGS"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Fitb"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title3"
+        app:srcCompat="@drawable/fitbitchange" />
+
+    <TextView
+        android:id="@+id/Fitbit"
+        android:layout_width="62dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="2dp"
+        android:text="Fitbit"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Fitb" />
+
+    <TextView
+        android:id="@+id/Garmin"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="Garmin"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/garminb" />
+
+    <TextView
+        android:id="@+id/Googlefit"
+        android:layout_width="93dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text="Google Fit"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/Garmin"
+        app:layout_constraintStart_toEndOf="@+id/Fitbit"
+        app:layout_constraintTop_toBottomOf="@+id/googlefb" />
+
+    <ImageButton
+        android:id="@+id/googlefb"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        app:layout_constraintEnd_toStartOf="@+id/garminb"
+        app:layout_constraintStart_toEndOf="@+id/Fitb"
+        app:layout_constraintTop_toBottomOf="@+id/title3"
+        app:srcCompat="@drawable/googlefitchange" />
+
+    <ImageButton
+        android:id="@+id/garminb"
+        android:layout_width="72dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title3"
+        app:srcCompat="@drawable/garminchange" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@color/design_default_color_surface"
+        android:drawableLeft="@drawable/help"
+        android:ems="10"
+        android:gravity=""
+        android:inputType="textPersonName"
+        android:text="Help Center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Googlefit" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="@color/design_default_color_surface"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:gravity=""
+        android:inputType="textPersonName"
+        android:text="Email us"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help" />
+
+    <Button
+        android:id="@+id/Donation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="@color/design_default_color_surface"
+        android:drawableLeft="@drawable/donation"
+        android:ems="10"
+        android:gravity=""
+        android:inputType="textPersonName"
+        android:text="Donation"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

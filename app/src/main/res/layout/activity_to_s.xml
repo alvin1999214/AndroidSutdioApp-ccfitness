@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Term of Service"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BY CLICKING ON “I AGREE” BELOW, EXECUTION AND DELIVERY OF A SERVICE ORDER AND AGREEMENT WITH JELLYFISH HEALTH, LLC OR OTHERWISE DOWNLOADING, ACCESSING AND/OR USING ANY OF THE “JELLYFISH HEALTH SOFTWARE SERVICES” (AS DEFINED BELOW), YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD AND AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS OF USE OF THE JELLYFISH HEALTH SOFTWARE SERVICES (THE “TERMS OF SERVICE”).  IF YOU DO NOT AGREE TO THE TERMS OF SERVICE, CLICK “I DON’T AGREE” AND DO NOT ACCESS OR USE ANY OF THE JELLYFISH HEALTH SOFTWARE SERVICES." />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These Terms of Service, together with the attachments referred to herein as well as, for “Healthcare Provider Users” (as defined below), your Service Order and other attachments referred to therein if you have executed and delivered a Service Order with Jellyfish Health, LLC, and any other documents expressly incorporated herein by reference constitute the agreement  (collectively, the “Agreement”) governing use of Jellyfish Health Software Services entered into by and between Jellyfish Health, LLC a Delaware limited liability company, (hereinafter referred to as “Jellyfish Health“)” and the applicable individual user and, for Healthcare Provider Users, the healthcare provider entity on whose behalf this Agreement is entered for the access and/or use of the Jellyfish Health Software Services (hereinafter referred to as “You” or “User”), effective as of the earlier of Your registration, downloading of a Jellyfish Health Software application, first use of Jellyfish Health Software Services, or execution of a Service Order (the “Effective Date”)." />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You represent and warrant that you are over the age of 18 and have the capacity and authority to bind yourself to the terms of this Agreement and agree to be bound by the terms of this Agreement.  If you access and/or or use the Jellyfish Health Software Services on behalf of an entity, you represent and warrant that you have legal authority to bind such entity to this Agreement, and in such event the terms “you” and “your” also refer to such entity, except that if you do not have actual legal authority to bind such entity, you are and shall be personally bound and liable under these Terms of Service and you agree to indemnify Jellyfish Health with respect to any claims, losses, expenses (including, without limitation, legal expenses), damages or other liability (collectively, “Claims”) arising or resulting therefrom.  Jellyfish Health shall not have any liability for any Claims arising or resulting from reliance on any representation, warranty, agreement, instruction, notice or communication received from you whether on your own behalf or on behalf of such entity." />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. USE OF THE SERVICES." />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.1.  Jellyfish Health Software Services. “JellyFish Health Software Services” means the Jellyfish Health products and services that You obtain from Jellyfish Health, and related websites, services and the Jellyfish health mobile software applications or other software provided by Jellyfish Health, including without limitation, any software as a service or any professional services, in which these Terms of Service are posted or referenced. “Users” include both healthcare providers and/or healthcare facilities (collectively, “Healthcare Provider Users”) and their patients who are authorized to use Jellyfish Health patient interface features of the Jellyfish Health Software Services to communicate with such Healthcare Provider Users (“Healthcare Provider Patient Users”). References to “Users” herein include both Healthcare Provider Users and Healthcare Provider Patient Users." />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.2. Use by Healthcare Provider Users: Subject to payment of the applicable subscription, license and/or other fees (if any) and User’s full and ongoing compliance with the terms and conditions of this Agreement, Jellyfish grants to Healthcare Provider Users limited, revocable, non-exclusive, non-transferable, non-sublicensable authorization for such Healthcare Provider User’s authorized user(s) to access and use the Jellyfish Health Software Services within the scope of the Jellyfish Health Software Services as specified in the applicable Service Order solely for their own medical practice operational use. To the extent that Jellyfish Health makes the Jellyfish Health Software Services available for direct integration with Healthcare Provider User’s web properties, Jellyfish Health grants to such Healthcare Provider User a personal, limited, revocable, non-transferable, non-sublicensable right to such integration without modification into those web properties that are owned or controlled by such Healthcare Provider User solely for such purpose. Additional Jellyfish Health Software Services and Locations may be added by contacting Jellyfish Health regarding same, subject to the parties executing additional Service Orders and payment of the applicable additional fees and charges for same." />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.3. Use by Healthcare Provider Patient Users:  Subject to User’s full and ongoing compliance with the terms and conditions of this Agreement, Healthcare Provider Patient Users that download a Jellyfish Health mobile app and/or register to use the Jellyfish Health Software Services patient interface features are granted a limited, revocable, non-exclusive, non-transferable, non-sublicensable authorization to access and use the Jellyfish Health mobile app and the patient interface features of the Jellyfish Health Software Services included in the Service subscribed for by the Healthcare Provider Patient User’s applicable Healthcare Provider User solely to communicate and interact with such Healthcare Provider User via the Jellyfish Health Software Services. Healthcare Provider Patient Users are not authorized to use any other aspects of the Jellyfish Health Software Services unless expressly agreed to otherwise by Jellyfish Health in writing." />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>
